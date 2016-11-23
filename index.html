@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+<title>Jordan's Restaurant</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script
+src="https://code.jquery.com/jquery-3.1.1.min.js"
+integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <h1>Jordan's Restaurant</h1>
+  <img src="http://cookingmamachado.weebly.com/uploads/2/0/9/8/20988654/5990763.jpg?379" id="dumb-girl">
+  <h2>"Far From Average Dining From a Far From Average Cook" </h2>
+  <ul>
+    <li><a href="https://dash.generalassemb.ly/jordanwade21/build-your-own-personal-website">About</a></li>
+    <li><a href="https://dash.generalassemb.ly/jordanwade21/build-your-own-blog-theme">Blog</a></li>
+    <li><a href="https://dash.generalassemb.ly/jordanwade21/build-your-own-business-website">Restaurant</a></li>
+  </ul>
+<div class="first">
+  <p>Possibly Burned Mac and Cheese <span class="price">$14</span><br />
+  <small>Your choice of boiled or baked Macaroni and Cheese. Only 95% chance of getting a plate with seared or burned food! </small></p>
+</div>
+
+<div class="second">
+  <p>Half-Way-Made-Then-Given-Up-On-Scrabled-Eggs <span class="price">$4</span><br />
+  <small>Pretty self explanitory.</small></p>
+</div>
+
+<div class="dessert">
+  <p>Boiling Water <span class="price">$8</span><br />
+  <small>So you can do it yourself. Do I look like a chef to you?.</small></p>
+</div>
+
+<script>
+  $(document).ready(function() {
+    $('div').on('click', function() {
+        $(this).toggleClass('show-description');
+    });
+  }
+)
+</script>
+
+</body>

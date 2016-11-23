@@ -1,0 +1,139 @@
+* {
+box-sizing: border-box;
+}
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: pink;
+  padding-top: 75px;
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  text-align: center;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+img {
+  height: 190px;
+  border-radius: 50%;
+  position: absolute;
+  right: 28%;
+  top: 77px;
+}
+div {
+  height: 300px;
+  background-size: cover;
+  margin: 40px 0 40px 0;
+  border-radius: 3% 3% 10% 10%;
+}
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  text-align: left;
+  font-size: 75px;
+  color: #fff;
+  margin: 60px 0 0 0;
+  max-width: 300px;
+  display: inline;
+}
+h2 {
+  text-align: center;
+  color: #fff;
+  margin: 0px 0 70px 0;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: relative;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  border-radius:10px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+small {
+  opacity: 0;
+}
+.show-description p {
+  height: 150px;
+}
+.show-description small {
+  opacity: 1;
+}
+.first{
+  background-image: url("http://farm6.staticflickr.com/5513/9762257482_db2214a7ca.jpg");
+}
+.second{
+  background-image: url("http://www.seriouseats.com/images/2015/05/20150511-scrambled-eggs-vicky-wasik-6.jpg");
+}
+.dessert{
+  background-image: url("http://www.cuisineandhealth.com/wp-content/uploads/2015/06/boiling-water.jpg");
+}
+.price {
+  float: right;
+}
+@media (max-width: 100vw) {
+  img {
+    position: absolute;
+    right: 27%;
+    height: 150px;
+    padding-right: 50px;
+  }
+  ul {
+    position: static;
+  }
+  h1 {
+    font-size: 75px;
+    margin-top: 20px;
+    line-height: 75px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 0px;
+    width: 100%
+  }
+  p {
+    font-size: 24px;
+    line-height: 22px;
+  }
+  small {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #dumb-girl {
+    position: absolute;
+    right: 21%;
+    height: 150px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 900px) {
+  #dumb-girl {
+    position: absolute;
+    right: 12%;
+    height: 150px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 720px) {
+  #dumb-girl {
+    display: none;
+  }
+}
