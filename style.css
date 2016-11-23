@@ -18,6 +18,10 @@ li {
   display: inline;
   padding: 0px 10px 0px 10px;
 }
+li a {
+  text-decoration: none;
+  color: white;
+}
 img {
   height: 190px;
   border-radius: 50%;
@@ -80,6 +84,9 @@ small {
 }
 .dessert{
   background-image: url("http://www.cuisineandhealth.com/wp-content/uploads/2015/06/boiling-water.jpg");
+}
+.food-item:hover {
+  cursor: pointer;
 }
 .price {
   float: right;
